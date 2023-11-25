@@ -1,0 +1,153 @@
+
+  h1{
+  margin: 0;
+margin-bottom: 1rem;
+font-size: 4rem;
+}
+h2{
+  text-align: center;
+  color:whitesmoke;
+  font-family: 'YourFontName';
+  font-size: 3rem;
+
+}
+@font-face  {
+  font-family: 'YourFontName';
+  src: url('./Dancing_Script/DancingScript-VariableFont_wght.ttf');
+  
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+h1{
+  text-align: center;
+  color:whitesmoke;
+  font-family: 'YourFontName';
+}
+body{
+background-image: linear-gradient( 111.4deg,  rgba(7,7,9,1) 6.5%, rgba(27,24,113,1) 93.2% );
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+   margin: 0;
+  padding: 0;
+  /* height: 100vh; */
+  
+ 
+}
+ 
+.main{
+  
+  text-align: center;
+  font-size: 1.25rem;
+  /* background-color: wh */
+   margin: 0;
+  padding: 0;
+  
+  
+  
+}
+.maps{
+  height: 2rem;
+  width: auto;
+}
+form{
+  margin-bottom: 2rem;
+}
+
+.da{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* overflow-y: scroll; */
+ 
+}
+
+.flag{
+  border: 1px solid black;
+}
+img{
+  height: auto;
+  width: 8rem;
+  
+}
+.data{
+  width: 60%;
+  display: flex;
+   margin: 0;
+  padding: 0;
+  background-color: white;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4rem;
+  flex-wrap: wrap;
+  /* overflow-y: scroll; */
+  margin-bottom: 2.1rem;
+  height: 
+  auto;
+}
+/* CSS for the label */
+label {
+    display: block;
+    margin-bottom: 10px;
+    color:white;
+    font-size: 1.2rem;
+    margin-bottom: 0;
+}
+
+/* CSS for the input field */
+input[type=text] {
+    width:10rem;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+}
+.wrong{
+  color: white;
+  font-size: 2rem;
+}
+
+/* CSS for the submit button */
+.btn {
+  text-align: center;
+    width: 6rem;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.images{
+  
+  margin-bottom: 2rem;
+}
+.para{
+  margin: 1rem;
+}
+
+img{
+    transition-property: transform;
+    transition-duration: 0.7s;
+    
+}
+img:hover{
+   transform: scale(1.1);
+    
+}
+@media (min-width: 716px) {
+    body {
+        height: 100vh;
+    }
+}
